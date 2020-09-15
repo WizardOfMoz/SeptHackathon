@@ -104,12 +104,15 @@ a:hover {
   padding: 20px 0;
 }
 
-
+.instructions{
+  padding-bottom: 50px;
+}
 
 .code-img {
   width: 25%;
   float: left;
   margin-right: 30px;
+  margin-top: 0px;
 }
 
 .chilli-img {
