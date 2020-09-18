@@ -161,7 +161,7 @@ a:hover {
 
 
 .img {
-  width: 25%;
+  width: 35%;
   display:block;
   margin-right:auto;
   margin-left: auto;
@@ -170,4 +170,19 @@ a:hover {
 
 .border{
   border: 2px solid black;
+}
+
+@media only screen and (max-width: 1400px) {
+  .img {
+    width: 60%;
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 0px;
+  }
+
+  .final{
+    font-size: small;
+  }
+
 }
