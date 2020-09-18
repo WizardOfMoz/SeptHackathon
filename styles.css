@@ -181,8 +181,10 @@ a:hover {
     margin-top: 0px;
   }
 
-  .final{
-    font-size: small;
-  }
+}
 
+@media only screen and (max-width: 600px) {
+  .final{
+    font-size: xx-small;
+  }
 }
